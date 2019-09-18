@@ -1,0 +1,17 @@
+0	imprime_tab	-					solicita_dados
+1	imprime_tab	x					solicita_dados
+2	imprime_tab	xo					solicita_dados
+3	imprime_tab	xox					solicita_dados
+4	imprime_tab	xoxo					solicita_dados
+5	imprime_tab	xoxox		verificar_vitoria	solicita_dados
+6	imprime_tab	xoxoxo		verificar_vitoria	solicita_dados
+7	imprime_tab	xoxoxox		verificar_vitoria	solicita_dados
+8	imprime_tab	xoxoxoxo	verificar_vitoria	solicita_dados
+9	imprime_tab	xoxoxoxox	verificar_vitoria
+
+
+turno 1~9
+	imprime_tab
+se>=5
+	verifica_dados
+	solicita_dados
